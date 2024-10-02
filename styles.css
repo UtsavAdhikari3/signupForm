@@ -54,14 +54,16 @@ ol span{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 75%;
+    background-color: black;
+    height: 100vh;
+    margin: 0;
 }
 
 .form form{
     border: 3px solid red;
     border-radius: 5px;
-    height: 40%;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -69,7 +71,8 @@ ol span{
     justify-content: space-around;
     gap: 3px;
     width: fit-content;
-    height: 50%;
+    height: 60%;
+    background-color: black;
 }
 
 form .name, form .contact, form .password{
@@ -81,11 +84,18 @@ form .name, form .contact, form .password{
 input{
     width: 300px;
     height: 25px;
-    border-radius: 1px;
+    border: 2px solid red;
+    border-radius: 3px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    background-color: black;
+    color: white;
 }
 
 input:focus{
-    border: 1px solid #AA336A;
+    border-color: red;
+    outline: none;
+    color: #FF98BF;
 }
 
 .button{
@@ -99,4 +109,26 @@ button{
     cursor: pointer;
     appearance: none;
     background-color: inherit;
+}
+
+legend{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+    font-size: x-large;
+    color: red;
+}
+
+label{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: red;
+    letter-spacing: 1px;
+}
+
+label:focus{
+    color: #FF98BF;
+}
+
+legend:hover{
+    color: #ff0490;
+    cursor: default;
 }
