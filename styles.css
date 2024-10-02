@@ -12,21 +12,23 @@ body{
     height: 100vh;
 }
 
-.desc{
-    /* background-color: red; */
+/* .desc{
+    background-color: red;
     height: 300px;
     display: flex;
     flex-direction: column;
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
-    background-image: url(./soap.jpg);
     border-radius: 3px;
     padding: 8px;
     width: 71.5%;
     align-items: center;
     justify-content: center;
-}
+    background-color: black;
+    gap: 0;
+    margin: 0;
+} */
 
 .desc .title{
     font-family: Impact, Arial, sans-serif;
@@ -47,3 +49,22 @@ ol span{
     color: pink;
 }
 
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid red;
+    width: 75%;
+}
+
+.form form{
+    border: 3px solid red;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    justify-content: space-around;
+    gap: 3px;
+}
