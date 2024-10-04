@@ -45,7 +45,7 @@ body{
     color: #FF98BF;
 } */
 
-li{
+/* li{
     list-style: none;
     color: red;
 }
@@ -53,7 +53,7 @@ li{
 ol span{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: pink;
-}
+} */
 
 .container{
     background-image: url(./bodyback.jpg);
@@ -100,7 +100,7 @@ form .name, form .contact, form .password{
 input{
     width: 300px;
     height: 25px;
-    border: 3px solid red;
+    border: 3px solid #F73F3F;
     border-radius: 2px;
     font-family: fight;
     letter-spacing: 2px;
@@ -110,7 +110,7 @@ input{
 }
 
 input:focus{
-    border-color: red;
+    border-color: #F73F3F;
     outline: none;
     color: #040a7d;
 }
@@ -134,13 +134,13 @@ legend{
     font-family: fight;
     letter-spacing: 1px;
     font-size: xx-large;
-    color: red;
+    color: #F73F3F;
     animation: blinkLegend 3s linear infinite;
 }
 
 label{
     font-family: fight;
-    color: red;
+    color: #F73F3F;
     letter-spacing: 2px;
     font-size: larger;
     animation: blinkLegend 3s linear;
@@ -172,7 +172,7 @@ a{
 }
 
 .link span{
-    color: red;
+    color: #F73F3F;
 } 
 
 .footer span{
@@ -201,6 +201,29 @@ a{
         opacity: 0;
     }
     31%{
+        opacity: 1;
+    }
+}
+
+.quote span{
+    position: absolute;
+    left: 5px;
+    top: 20px;
+    padding: 10px;
+    font-size: 40px;
+    font-family: fight;
+    animation: fightClub 5s linear infinite;
+    color: #F73F3F;
+}
+
+@keyframes fightClub{
+    49%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    51%{
         opacity: 1;
     }
 }
