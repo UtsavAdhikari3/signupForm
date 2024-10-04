@@ -143,6 +143,7 @@ label{
     color: red;
     letter-spacing: 2px;
     font-size: larger;
+    animation: blinkLegend 3s linear;
 }
 
 label:focus{
